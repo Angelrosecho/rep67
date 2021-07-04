@@ -11,7 +11,6 @@ String str = "",str2="";
 while(!str.equals("stop")){
 str = din.readUTF();
 System.out.println("client says:"+str);
-str2=br.readLine();
 dout.writeUTF(str);
 dout.flush();
 }
